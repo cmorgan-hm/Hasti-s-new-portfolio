@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #d9d9d9;
+}
+
+.home {
+  text-align: center;
+  padding: 200px 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #232323;
+  font-weight: 400;
+}
+
+.home p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: 400px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 64px;
+  font-weight: 400px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: 400px;
+}
+h5,
+h1,
+h2 {
+  text-align: center;
+}
+
+.design {
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 48px;
+}
+
+.develop {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  font-size: 15px;
+  padding: 20px 42px;
+ 
+  border-radius: 10px;
+ 
+}
