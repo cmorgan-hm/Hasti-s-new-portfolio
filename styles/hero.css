@@ -52,7 +52,7 @@ h2 {
 .btn {
   background-color: var(--primary-color);
   font-size: 15px;
-  padding: 20px 42px;
+  padding: 15px 38px;
   border-radius: 10px;
 }
 
@@ -62,9 +62,9 @@ h2 {
 }
 
 .design-projects-background {
-  background-image: url(../designs/designs-portfolio-1.png);
-  background-size: 240px;
-  background-position: top;
+  background-image: url(../designs/ink-design1.png);
+  background-size: 300px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -74,8 +74,6 @@ h2 {
   font-family: "Delicious Handrawn", cursive;
   font-size: 25px;
 }
-
-
 
 .front-end-projects-p {
   margin-bottom: 0px;
@@ -88,18 +86,85 @@ h2 {
   font-size: 18px;
 }
 
+.grey {
+  color: #808080;
+}
+
+.dark-blue {
+  color: #4e82b1;
+}
+
+.light-blue {
+  color: #84cde4;
+}
+
+.orange {
+  color: #d6965b;
+}
+
 @media (max-width: 600px) {
+
+  .home p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.design {
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 30px;
+}
+
+.develop {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  font-size: 15px;
+  padding: 10px 22px;
+  border-radius: 10px;
+}
+
+
   .design-projects-background {
-    background-image: url(../designs/line-designs-2.png);
-      background-size: 100px;
-  background-position: top;
-  background-repeat: no-repeat;
+    background-image: url(../designs/ink-design1.png);
+    background-size: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .design-projects {
-  color: white;
-  text-decoration: none;
-  font-family: "Delicious Handrawn", cursive;
-  font-size: 22px;
-}
+    color: white;
+    text-decoration: none;
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 22px;
+  }
+
+  .front-end-projects {
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+
+  .code {
+    font-size: 15px;
+  }
 }
