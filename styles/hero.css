@@ -273,7 +273,7 @@ small {
 }
 
 .designs p {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 small {
@@ -281,9 +281,7 @@ small {
 }
 }
 
-.frontend-background {
-  backdrop-filter: ;
-}
+
 
 .frontend h1 {
   font-family: "Roboto Mono", monospace;
@@ -309,4 +307,26 @@ small {
 
 .portfolio {
   border: 1px #DD7A1F solid;
+}
+
+@media (max-width: 600px) {
+
+  .frontend h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  margin-bottom: 150px;
+  font-size: 30px;
+}
+
+.frontend h2{
+  font-size: 16px;
+}
+
+.frontend h3 {
+  font-size: 18px;
+}
+
+.frontend p {
+  font-size: 15px;
+}
 }
