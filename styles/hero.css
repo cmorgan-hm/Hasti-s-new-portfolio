@@ -63,7 +63,7 @@ h2 {
 }
 
 .design-projects-background {
-  background-image: url(../designs/ink-design1.png);
+  background-image: url(../designs/ink-design3.png);
   background-size: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,14 +93,17 @@ h2 {
 
 .dark-blue {
   color: #4e82b1;
+  
 }
 
 .light-blue {
   color: #84cde4;
+  color: #20FFFF;
 }
 
 .orange {
   color: #d6965b;
+  color: #DD7A1F;
 }
 
 @media (max-width: 900px) {
@@ -145,7 +148,7 @@ h2 {
 
 
   .design-projects-background {
-    background-image: url(../designs/ink-design1.png);
+    background-image: url(../designs/ink-design3.png);
     background-size: 180px;
     background-position: center;
     background-repeat: no-repeat;
@@ -231,19 +234,19 @@ font-weight: 700;
 
 }
 
-.works-background {
+.design-background {
   background-image: url(../designs/design-page-line-1.png), url(../designs/design-page-line2.png);;
   background-repeat: no-repeat;
   background-size: 80%, 80%;
   background-position: top right, bottom left;
 }
 
-.works h1 {
+.designs h1 {
   font-family: "Delicious Handrawn", cursive;
   margin-bottom: 150px;
 }
 
-.works h3 {
+.designs h3 {
   font-size: 22px;
   font-weight: 700;
 }
@@ -258,22 +261,52 @@ small {
   .works-background {
     padding: 100px 40px;
   }
-.works h1 {
+.designs h1 {
   font-family: "Delicious Handrawn", cursive;
   margin-bottom: 100px;
   font-size: 35px;
 }
-.works h3 {
+.designs h3 {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 0;
 }
 
-.works p {
+.designs p {
   font-size: 13px;
 }
 
 small {
   font-size: 10px;
 }
+}
+
+.frontend-background {
+  backdrop-filter: ;
+}
+
+.frontend h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  margin-bottom: 150px;
+  font-size: 50px;
+}
+
+.frontend h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.tools {
+  font-size: 20px;
+}
+
+.link {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.portfolio {
+  border: 1px #DD7A1F solid;
 }
