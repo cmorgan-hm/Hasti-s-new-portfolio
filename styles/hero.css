@@ -70,6 +70,7 @@ h2 {
   color: white;
   font-size: 36px;
   font-weight: 300;
+
 }
 
 .home h5,
@@ -293,7 +294,7 @@ font-weight: 700;
 }
 
 .design-background {
-  background-image: url(../designs/design-page-line-1.png), url(../designs/design-page-line2.png);;
+  background-image: url(../designs/design-page-line-1.png), url(../designs/design-page-line2\ copy.png);;
   background-repeat: no-repeat;
   background-size: 80%, 80%;
   background-position: top right, bottom left;
@@ -411,4 +412,42 @@ a:hover {
   .contact h4 {
     font-size: 16px;;
   }
+}
+
+footer {
+  background-color: #d9d9d9;
+  color: #232323;
+  margin-top: 200px;
+}
+
+.icons {
+  font-size: 25px;
+  line-height: 80px;
+}
+
+.footer-note {
+  font-size: 15px;
+  line-height: 80px;
+}
+
+footer a {
+  color: #232323;
+  text-decoration: none;
+}
+
+footer .name:hover {
+  color: #DD7A1F;
+}
+
+@media (max-width: 600px) {
+  .icons {
+  font-size: 15px;
+  line-height: 80px;
+}
+
+.footer-note {
+  font-size: 10px;
+  line-height: 80px;
+}
+
 }
