@@ -460,3 +460,62 @@ footer .name:hover {
 .space {
   height: 80px;
 }
+
+.project-image {
+   width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.box {
+  position: relative;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ width: 80%;
+ margin: 0 auto;
+ display: block;
+  opacity: 0;
+  transition: 0.5s ease;
+
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 60%);
+  background-image: url(../projects/projector-hover.png);
+  background-size: 100%;
+}
+
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.project-text {
+  text-align: left;
+  margin-left: 60%;
+  margin-right: 5%;
+  margin-top: 10%
+}
+
+.project-text h5 {
+color: #DD7A1F;
+font-size: 12px;
+margin-top: none;
+margin-bottom: 20px;
+}
+
+.project-text a {
+color: #DD7A1F;
+text-decoration: none;
+font-weight: 700;
+}
+
+.project-text a:hover {
+  color: #20FFFF;
+}
