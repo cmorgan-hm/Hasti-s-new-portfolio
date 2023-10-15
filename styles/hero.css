@@ -425,6 +425,26 @@ small {
 
 }
 
+.bulkmass {
+    background-image: url(../projects/bulkmass\ -\ hover.jpg);
+  background-size: 100%;
+}
+
+.hoor {
+  background-image: url(../projects/hoor\ hover.jpg);
+  background-size: 100%;
+}
+
+
+.flatcharacter {
+  background-image: url(../projects/flat\ character\ hover.jpg);
+  background-size: 100%;
+}
+
+.santiago {
+  background-image: url(../projects/santiago\ hover.jpg);
+  background-size: 100%;
+}
 
 
 .container:hover .overlay {
