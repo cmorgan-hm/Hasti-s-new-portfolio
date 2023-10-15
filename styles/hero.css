@@ -446,6 +446,10 @@ small {
   background-size: 100%;
 }
 
+.signs {
+  background-image: url(../projects/traffic\ signs\ hover.jpg);
+  background-size: 100%;
+}
 
 .container:hover .overlay {
   opacity: 1;
